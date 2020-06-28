@@ -1,4 +1,5 @@
 # A flexible and various captcha package
+![Test](https://github.com/mojocn/base64Captcha/workflows/Test/badge.svg)
 [![Go Report Card](https://goreportcard.com/badge/github.com/mojocn/base64Captcha)](https://goreportcard.com/report/github.com/mojocn/base64Captcha)
 [![GoDoc](https://godoc.org/github.com/mojocn/base64Captcha?status.svg)](https://godoc.org/github.com/mojocn/base64Captcha)
 [![Build Status](https://travis-ci.org/mojocn/base64Captcha.svg?branch=master)](https://travis-ci.org/mojocn/base64Captcha)
@@ -244,6 +245,8 @@ func main() {
 }
 ```
 
+#### 2.3.7 Example Use Etcd as store
+[captcha with etcd database as store](captcha_with_etcd_exmaple.md)
 
 ## 3. 🎨🎨🎨 Customization
 You can customize your captcha display image by implementing [interface driver](interface_driver.go) 
